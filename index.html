@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIO Dental | Rehabilitación Integral Odontológica</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-tooth"></i> RIO <span>Dental</span>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#equipo" class="nav-link">Profesionales</a>
+                <a href="#instalaciones" class="nav-link">Consultorio</a>
+                <a href="#reseñas" class="nav-link">Reseñas</a>
+                <a href="#ubicacion" class="nav-link">Ubicación</a>
+                <a href="#contacto" class="nav-link cta-nav">Agendar Turno</a>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION CON VIDEO DE FONDO -->
+    <section id="inicio" class="hero-video-section">
+        <video class="bg-video" autoplay muted loop playsinline preload="metadata" poster="/static/video/poster.jpg">
+            <source src="/static/video/dentista.mp4" type="video/mp4">
+            Tu navegador no soporta videos HTML5.
+        </video>
+        
+        <div class="hero-overlay"></div>
+
+        <div class="hero-video-container">
+            <div class="hero-content">
+                <span class="badge"><i class="fa-solid fa-shield-halved"></i> Rehabilitación Integral Odontológica</span>
+                <h1>Tu sonrisa, en las mejores manos</h1>
+                <p>Tecnología de vanguardia y calidez humana para cuidar tu salud bucal en Villa del Totoral con excelencia profesional.</p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/543524421222?text=Hola,%20quisiera%20pedir%20un%20turno%20en%20RIO%20Dental." class="btn btn-primary" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> Pedir Turno
+                    </a>
+                    <a href="#servicios" class="btn btn-secondary">Ver Tratamientos</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>MP 11.480</h3>
+                        <p>Od. Rodrigo Pelosi</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>UNC</h3>
+                        <p>Facultad Odontología</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>Prevención</h3>
+                        <p>Control c/ 6 meses</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="servicios" class="services">
+        <div class="section-header">
+            <span class="sub-title">Nuestras Prestaciones</span>
+            <h2>Servicios que Brindamos en el Consultorio</h2>
+            <p>Soluciones odontológicas especializadas para devolverle la salud y la estética a tu sonrisa.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card-img">
+                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=80" alt="Limpieza Bucal">
+                <div class="service-card-content">
+                    <h3>Limpieza Bucal (Tartectomía)</h3>
+                    <p>Eliminación profesional de sarro y placa bacteriana acumulada. Incluye raspado y pulido dental.</p>
+                    <a href="#contacto" class="service-link">Consultar <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="service-card-img">
+                <img src="https://images.unsplash.com/photo-1606811841689-23dfddce6395?auto=format&fit=crop&w=600&q=80" alt="Blanqueamiento y Estética">
+                <div class="service-card-content">
+                    <h3>Blanqueamiento & Estética</h3>
+                    <p>Tratamiento estético avanzado para eliminar manchas dentales, devolviendo el brillo natural sin dañar el esmalte.</p>
+                    <a href="#contacto" class="service-link">Consultar <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="service-card-img">
+                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80" alt="Cirugía e Implantes">
+                <div class="service-card-content">
+                    <h3>Cirugía e Implantes</h3>
+                    <p>Reemplazo de piezas dentales perdidas mediante implantes de titanio de alta durabilidad y máxima seguridad.</p>
+                    <a href="#contacto" class="service-link">Consultar <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="service-card-img">
+                <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=600&q=80" alt="Ortodoncia">
+                <div class="service-card-content">
+                    <h3>Ortodoncia & Ortopedia</h3>
+                    <p>Corrección de la posición dentaria y alineación de mordida para niños y adultos.</p>
+                    <a href="#contacto" class="service-link">Consultar <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="service-card-img">
+                <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=600&q=80" alt="Prótesis Fija o Removible">
+                <div class="service-card-content">
+                    <h3>Prótesis Fija o Removible</h3>
+                    <p>Restauración estética y funcional completa adaptada a las necesidades de cada paciente.</p>
+                    <a href="#contacto" class="service-link">Consultar <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="service-card-img">
+                <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=600&q=80" alt="Endodoncia">
+                <div class="service-card-content">
+                    <h3>Endodoncia & Operatoria</h3>
+                    <p>Tratamientos de conducto y restauraciones generales para salvar piezas dentales profundas.</p>
+                    <a href="#contacto" class="service-link">Consultar <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM SECTION -->
+    <section id="equipo" class="about">
+        <div class="section-header" style="margin-bottom: 3rem;">
+            <span class="sub-title">Staff Profesional</span>
+            <h2>Especialistas Comprometidos con tu Sonrisa</h2>
+            <p>Atención profesional calificada con respaldo universitario de la UNC.</p>
+        </div>
+        <div class="about-container" style="margin-bottom: 4rem;">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80" alt="Od. Rodrigo Pelosi Mondini">
+            </div>
+            <div class="about-content">
+                <span class="sub-title">Dirección del Consultorio</span>
+                <h2>Od. Rodrigo Pelosi Mondini</h2>
+                <p>Mat. 11.480. Egresado de la Facultad de Odontología de la UNC. Encargado de la rehabilitación integral, operatoria, cirugías e implantes con un enfoque humano y profesional.</p>
+                <ul class="about-list">
+                    <li><i class="fa-solid fa-circle-check"></i> Diagnósticos precisos y seguros.</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Experiencia y actualización constante.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="about-container">
+            <div class="about-content">
+                <span class="sub-title">Ortodoncia y Odontopediatría</span>
+                <h2>Od. Agustina Benvenuto</h2>
+                <p>Especialista dedicada a la ortodoncia, ortopedia maxilar y odontopediatría. Brinda atención especial los días <strong>sábados por la mañana</strong> para mayor comodidad de las familias.</p>
+                <ul class="about-list">
+                    <li><i class="fa-solid fa-circle-check"></i> Atención especializada para niños y jóvenes.</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Turnos disponibles los sábados.</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=800&q=80" alt="Od. Agustina Benvenuto">
+            </div>
+        </div>
+    </section>
+
+    <!-- FACILITIES SECTION -->
+    <section id="instalaciones" class="services" style="background: var(--bg-surface); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+        <div class="section-header">
+            <span class="sub-title">Espacios Diseñados para Ti</span>
+            <h2>Nuestras Instalaciones</h2>
+            <p>Un ambiente moderno, cálido y relajante para que tu visita sea una grata experiencia.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card-img">
+                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80" alt="Nuestra Recepción">
+                <div class="service-card-content">
+                    <h3>Nuestra Recepción</h3>
+                    <p>Un espacio preparado para recibirte cordialmente y coordinar tu visita con total comodidad.</p>
+                </div>
+            </div>
+            <div class="service-card-img">
+                <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=600&q=80" alt="Sala de Espera">
+                <div class="service-card-content">
+                    <h3>Sala de Espera</h3>
+                    <p>Espacio climatizado y confortable pensado para que te relajes antes de ingresar a tu turno.</p>
+                </div>
+            </div>
+            <div class="service-card-img">
+                <img src="https://images.unsplash.com/photo-1629909615184-74f495363b67?auto=format&fit=crop&w=600&q=80" alt="Consultorio Equipado">
+                <div class="service-card-content">
+                    <h3>Consultorio Equipado</h3>
+                    <p>Gabinetes odontológicos de última generación dotados de tecnología avanzada para diagnósticos precisos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GOOGLE REVIEWS SECTION -->
+    <section id="reseñas" class="reviews-section">
+        <div class="section-header">
+            <span class="sub-title">Testimonios</span>
+            <h2>Lo que opinan nuestros pacientes</h2>
+            <p>La confianza y satisfacción reflejada en nuestras valoraciones de Google Maps.</p>
+        </div>
+        <div class="reviews-grid">
+            <div class="google-review-card">
+                <div class="google-review-header">
+                    <div class="reviewer-avatar">JA</div>
+                    <div class="reviewer-info">
+                        <h4 class="reviewer-name">Jonathan Arce</h4>
+                        <span class="review-date">Hace 2 años</span>
+                    </div>
+                    <svg class="google-icon-logo" viewBox="0 0 24 24"><path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.17z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.13 0-5.78-2.11-6.73-4.96H1.18v3.15C3.15 21.32 7.22 24 12 24z"/><path fill="#FBBC05" d="M5.27 14.24c-.25-.72-.38-1.49-.38-2.24s.13-1.52.38-2.24V6.6H1.18C.43 8.12 0 9.82 0 12s.43 3.88 1.18 5.4l4.09-3.16z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.22 0 3.15 2.68 1.18 6.6l4.09 3.15c.95-2.85 3.6-4.96 6.73-4.96z"/></svg>
+                </div>
+                <div class="google-stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="google-review-text">"Excelentes profesionales. Los mejores"</p>
+            </div>
+
+            <div class="google-review-card">
+                <div class="google-review-header">
+                    <div class="reviewer-avatar" style="background-color: #8b5cf6;">MM</div>
+                    <div class="reviewer-info">
+                        <h4 class="reviewer-name">Moira Miño</h4>
+                        <span class="review-date">Hace 5 meses</span>
+                    </div>
+                    <svg class="google-icon-logo" viewBox="0 0 24 24"><path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.17z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.13 0-5.78-2.11-6.73-4.96H1.18v3.15C3.15 21.32 7.22 24 12 24z"/><path fill="#FBBC05" d="M5.27 14.24c-.25-.72-.38-1.49-.38-2.24s.13-1.52.38-2.24V6.6H1.18C.43 8.12 0 9.82 0 12s.43 3.88 1.18 5.4l4.09-3.16z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.22 0 3.15 2.68 1.18 6.6l4.09 3.15c.95-2.85 3.6-4.96 6.73-4.96z"/></svg>
+                </div>
+                <div class="google-stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="google-review-text">"Excelente atención y calidez humana."</p>
+            </div>
+
+            <div class="google-review-card">
+                <div class="google-review-header">
+                    <div class="reviewer-avatar" style="background-color: #06b6d4;">RP</div>
+                    <div class="reviewer-info">
+                        <h4 class="reviewer-name">Rodrigo Pelosi</h4>
+                        <span class="review-date">Hace 2 años</span>
+                    </div>
+                    <svg class="google-icon-logo" viewBox="0 0 24 24"><path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.17z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.13 0-5.78-2.11-6.73-4.96H1.18v3.15C3.15 21.32 7.22 24 12 24z"/><path fill="#FBBC05" d="M5.27 14.24c-.25-.72-.38-1.49-.38-2.24s.13-1.52.38-2.24V6.6H1.18C.43 8.12 0 9.82 0 12s.43 3.88 1.18 5.4l4.09-3.16z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.22 0 3.15 2.68 1.18 6.6l4.09 3.15c.95-2.85 3.6-4.96 6.73-4.96z"/></svg>
+                </div>
+                <div class="google-stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="google-review-text">"Excelente consultorio, súper recomendable."</p>
+            </div>
+
+            <div class="google-review-card">
+                <div class="google-review-header">
+                    <div class="reviewer-avatar" style="background-color: #ec4899;">VR</div>
+                    <div class="reviewer-info">
+                        <h4 class="reviewer-name">Vale Ramirez</h4>
+                        <span class="review-date">Hace 3 años</span>
+                    </div>
+                    <svg class="google-icon-logo" viewBox="0 0 24 24"><path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.17z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.13 0-5.78-2.11-6.73-4.96H1.18v3.15C3.15 21.32 7.22 24 12 24z"/><path fill="#FBBC05" d="M5.27 14.24c-.25-.72-.38-1.49-.38-2.24s.13-1.52.38-2.24V6.6H1.18C.43 8.12 0 9.82 0 12s.43 3.88 1.18 5.4l4.09-3.16z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.22 0 3.15 2.68 1.18 6.6l4.09 3.15c.95-2.85 3.6-4.96 6.73-4.96z"/></svg>
+                </div>
+                <div class="google-stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="google-review-text">"Muy conformes con el trato y la profesionalidad."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GOOGLE MAPS SECTION -->
+    <section id="ubicacion" class="map-section">
+        <div class="section-header" style="padding-top: 2rem;">
+            <span class="sub-title">Encuéntranos</span>
+            <h2>Nuestra Ubicación en Google Maps</h2>
+            <p>25 de Mayo 340, Villa del Totoral, Córdoba (cerca de Terminal y Plaza San Martín).</p>
+        </div>
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3434.600000000000!2d-63.71560000000000!3d-30.74560000000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9434892c00000000%3A0x0!2s25%20de%20Mayo%20340%2C%20Villa%20del%20Totoral%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1700000000000!5m2!1ses!2sar" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- CONTACT / BOOKING SECTION -->
+    <section id="contacto" class="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <span class="sub-title">Reserva tu Turno</span>
+                <h2>Información de Contacto</h2>
+                <p>Comunicate con nosotros o visitanos en pleno centro de Villa del Totoral.</p>
+                <div class="info-box-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h4>Dirección</h4>
+                        <p>25 de Mayo 340, Villa del Totoral (Cerca de Terminal de Ómnibus y Plaza San Martín)</p>
+                    </div>
+                </div>
+                <div class="info-box-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h4>Teléfono / WhatsApp</h4>
+                        <p>3524 421222</p>
+                    </div>
+                </div>
+                <div class="info-box-item">
+                    <i class="fa-solid fa-clock"></i>
+                    <div>
+                        <h4>Horarios de Atención</h4>
+                        <p>Lunes a Viernes: 9:30 a 12:30 y 16:00 a 20:00 hs<br>Sábados: Mañana (Od. Agustina Benvenuto)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <form id="appointmentForm" class="contact-form">
+                    <h3>Agendar Cita Online</h3>
+                    <div class="form-group">
+                        <label for="nombre">Nombre y Apellido</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono / WhatsApp</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Ej. 3524421222" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="servicio">Servicio de Interés</label>
+                        <select id="servicio" name="servicio" required>
+                            <option value="" disabled selected>Seleccione una opción</option>
+                            <option value="Limpieza Bucal (Tartectomía)">Limpieza Bucal / Tartectomía</option>
+                            <option value="Blanqueamiento y Estética">Blanqueamiento y Estética</option>
+                            <option value="Cirugía e Implantes">Cirugía e Implantes</option>
+                            <option value="Ortodoncia y Ortopedia">Ortodoncia y Ortopedia</option>
+                            <option value="Prótesis Fija o Removible">Prótesis Fija o Removible</option>
+                            <option value="Endodoncia y Operatoria">Endodoncia y Operatoria</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Solicitar Turno <i class="fa-solid fa-paper-plane"></i></button>
+                    <div id="formResponse" class="form-response"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <a href="#" class="logo"><i class="fa-solid fa-tooth"></i> RIO <span>Dental</span></a>
+                <p>Rehabilitación Integral Odontológica en Villa del Totoral. Cuidando sonrisas con excelencia profesional.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/riodental.1" target="_blank" title="Instagram" class="social-icon instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com" target="_blank" title="Facebook" class="social-icon facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://wa.me/543524421222" target="_blank" title="WhatsApp" class="social-icon whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Enlaces Rápidos</h4>
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#equipo">Profesionales</a>
+                <a href="#instalaciones">Consultorio</a>
+                <a href="#reseñas">Reseñas</a>
+                <a href="#ubicacion">Ubicación</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto Directo</h4>
+                <p>Comunicate al 3524 421222 para coordinar urgencias o turnos programados.</p>
+                <a href="https://wa.me/543524421222" target="_blank" class="btn btn-primary" style="margin-top: 10px; padding: 0.5rem 1rem; font-size: 0.85rem;"><i class="fa-brands fa-whatsapp"></i> WhatsApp RIO Dental</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 RIO Dental - Od. Rodrigo Pelosi Mondini (MP 11.480) & Od. Agustina Benvenuto. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- GLOBO FLOTANTE DE WHATSAPP -->
+    <a href="https://wa.me/543524421222?text=Hola,%20quisiera%20consultar%20por%20un%20turno%20en%20RIO%20Dental." class="whatsapp-float" target="_blank" title="Chateá con nosotros por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- SCRIPT PARA EL MENÚ HAMBURGUESA MÓVIL -->
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }));
+    </script>
+</body>
+</html>
