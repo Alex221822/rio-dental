@@ -240,6 +240,17 @@ html, body {
     margin: 0;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    .bg-video {
+        display: none;
+    }
+    .hero-video-section {
+        background-image: url('video/poster.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
 /* SECCIONES GENERALES */
 .services, .about, .contact, .reviews-section, .map-section {
     max-width: 1280px;
@@ -693,7 +704,6 @@ html, body {
         right: 0;
     }
 
-    /* Animación del botón hamburguesa a cruz */
     .hamburger.active span:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
     }
